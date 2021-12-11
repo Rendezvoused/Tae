@@ -1,0 +1,315 @@
+body {
+    background-color: #ebeee8;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 10.5px;
+    color: #2e2e2e;
+    letter-spacing: 0.5px;
+    line-height: 190%;
+    text-transform: lowercase;
+    text-align: justify;
+    background-size: 40px 40px; 
+    background-image: linear-gradient(to right, #dde3d8 1px, transparent 1px), linear-gradient(to bottom, #dde3d8 1px, transparent 1px);
+}
+
+small, sub, sup {
+    font-size: 10.5px;
+}
+
+b, bold, strong {
+    color: #EACCB2;
+    font-weight: 700;
+    font-family: poppins;
+    text-transform: uppercase;
+}
+
+i, italic {
+    color: #bfceaf;
+}
+
+big {
+    font-size: 12px;
+    font-weight: bold;
+    color: #DCA398;
+}
+
+a { 
+  transition: background-size .4s ease;
+  padding: 0 3px 0px 3px;
+  cursor: pointer;
+  color: #bfceaf;
+  letter-spacing: .08rem;
+  text-decoration: none;
+  
+}
+  a:hover {
+   color:#e2e2e2;
+   transition: 0.5s;
+  }
+
+::-webkit-scrollbar {
+  display:none;
+}
+
+::selection {
+  background:#DCA398; 
+}
+.welcome {
+width: 270px; height: 108px;position: absolute; top: 250px; left: 500px; padding: 15px;
+}
+
+.weltext {
+width: 270px; height: 108px;font-size:65px;text-align:center;font-style: italic;font-family:Andale Mono, monospace;font-weight: bold;text-shadow: 3px 2px 0 rgba(191, 144, 134, 0.48);
+}
+.weltext2 {
+width: 270px; height: 108px;font-size:15px;text-align:center;font-style: oblique;margin-top: -85px;margin-left:-10px;
+}
+------flor----
+#containerp { margin: 0%; }
+
+#circle { position: relative; width: 100%; padding-bottom: 100%; overflow: hidden; }
+
+#circle text { 
+    font-family: poppins; 
+    font-size: 12px; 
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;     
+}
+
+.apollo {
+    position: absolute; 
+    z-index: 99999999999; 
+    margin-left: 66px; 
+    margin-top: -70px;animation: float 4s ease-in-out infinite;
+    }
+--------
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%px;
+  width: 100%px;
+  opacity: 0;
+  transition: .8s ease;
+  left: 0px;
+  background: rgba(244, 224, 191, 0.5);
+}
+.header { 
+width: 100%; height:100%; position: absolute; overflow: hidden; opacity: 1; display: block; transition: .5s ease;
+}
+.header:hover .overlay {
+  opacity: 1;
+}
+
+.admins {
+width: 50px; height: 200px; position: absolute; right: 350px; top: 210px;
+}
+
+.admin {
+width: 30px; height: 30px; padding: 4px; background: #CDBBA3; border: 1px solid #dadada; border-radius: 50%; transition: 0.4s;
+}
+
+.admin:hover {
+    background: rgba(245, 198, 191, 0.72); transition: 0.4s; border: 1px solid #CDBBA3;
+}
+
+.adm {
+width: 30px; height: 30px; border-radius: 50%;
+}
+
+.adm img {
+    width: 25px; height: 25px;margin-left:2.5px;margin-top:2.5px;
+}
+
+#fade {
+ display: none;
+ background: rgba(179, 142, 130, 0.55);
+ position: fixed; 
+ left: 0;
+ top: 0;
+ width: 100%; 
+ height: 100%;
+ z-index: 9999999; filter: blur(24px);   
+}
+
+ .popup_block {
+ display: none;
+ width: 400px;
+ height: 400px;
+ position: fixed;
+ z-index: 999999999999;
+ top: 50%;
+ left: 50%;
+ margin-left: -200px!important;
+ margin-top: -200px!important;
+ }
+
+*html #fade {
+    position: absolute;
+    
+}
+
+*html .popup_block {
+    position: absolute;
+    
+}
+
+.istaff {
+width: 398px; height: 150px; background: #fefefe; border: 1px solid #dca5b6; position: absolute; border-radius: 30px; overflow: hidden; top: 120px; box-shadow: 0px 0px 8px rgba(0,0,0,0.05);
+}
+
+.staffpic {
+width: 150px; height: 150px; position: absolute; background:#fbfbfb;
+}
+
+.staffpic img {
+    width: 150px; height: 150px;
+}
+
+.staffinfo {
+width: 185px; height: 100px; position: absolute; right: 30px; top: 25px; overflow: hidden;
+}
+
+.staffname {
+width: 185px; font-family: poppins; font-weight: 800; color: #dca5b6; text-transform: uppercase; font-size: 14px;
+}
+
+.staffpro {
+font-size: 5px; letter-spacing: 2px; font-family: poppins; text-transform: uppercase; margin-top: -5px;
+}
+
+.stinfo {
+width: auto; height: 60px; line-height: 10px; overflow:scroll; margin-top: 5px;font-size: 10px;
+}
+
+.sticon {
+width: 24px; height: 24px; border-radius: 50%; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 18px; color: #dca5b6;
+}
+
+.stlabel {
+width: 141px; height: 24px; display: flex; align-items: center; position: absolute; left: 30px;
+}
+
+.thing {
+    width: 30px; height: 30px; background: rgba(191, 144, 134, 0.48); border-radius: 15px; position: absolute; top: 113px; right: 0px; animation: pulse 2s infinite; 
+}
+
+-------------perfl------
+
+.twibox {}
+.vidz {
+width: 380px; height: 210px; background: #f4f0eb; border: 1px solid #dad2c9; position: absolute; z-index: 999; left: 15px; top: 50px; border-radius: 15px; box-shadow: 0px 0px 5px rgba(0,0,0,0.05); overflow: hidden; -webkit-animation: scale-up-center 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; animation: scale-up-center 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.vit {
+width: 380px; height: 25px; position: absolute; text-align: center; display: flex; align-items: center; justify-content: center; color: #DCA398; font-family: poppins; font-size: 7px; text-transform: uppercase; font-weight: 800; letter-spacing: 2px;
+}
+
+.vid {
+width: 380px; height: 185px; position: absolute; top: 25px;
+}
+
+.vid img {
+    width: 398px; height: 185px;
+}
+.info {
+width: 270px; height: 80px; background: rgba(191, 144, 134, 0.48); border: 1px solid #dad2c9; position: absolute; z-index: 999; left: 130px; top: 225px; border-radius: 15px; box-shadow: 0px 0px 5px rgba(0,0,0,0.05); -webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;animation: float 6s ease-in-out infinite;
+}
+
+.infoi {
+width:240px; height: 80px; border-radius: 15px 0px 0px 15px; background: #f4f0eb; position: absolute; border-right: 1px solid #dad2c9;
+}
+
+.icon {
+width: 40px; height: 40px; position: absolute; border-radius: 15px; left: -14px; top: 16px; border: 2px solid #DCA398; animation: pulse 2s infinite; overflow: hidden;
+}
+
+.icon img {
+    width: 40px; height: 40px;
+}
+.desc {
+width: 180px; height: 50px; overflow: scroll; position: absolute; left: 45px; top: 15px; color: #070707; font-size: 7.5px;line-height: 200%;
+}
+
+----------------friends--------------
+.twibox2 {}
+.istaff2 {
+width: 398px; height: 150px; background: #fefefe; border: 1px solid #dca5b6; position: absolute; border-radius: 30px; overflow: hidden; top: 120px; box-shadow: 0px 0px 8px rgba(0,0,0,0.05);
+}
+
+.staffpic2 {
+width: 150px; height: 150px; position: absolute; left:250px;background:#fbfbfb;
+}
+
+.staffpic2 img {
+    width: 150px; height: 150px;
+}
+
+.staffinfo2 {
+width: 185px; height: 100px; position: absolute; left: 30px; top: 25px; overflow: hidden;
+}
+
+.staffname2 {
+width: 185px; font-family: poppins; font-weight: 800; color: #dca5b6; text-transform: uppercase; font-size: 14px;
+}
+#columna1 {
+position:absolute;
+top:20px;
+left:0px;
+width:200px;
+margin-top:10px;}
+#columna2 {
+margin-left:100px;
+margin-right:20px;
+margin-top:-65px;}
+.staffpro2 {
+font-size: 5px; letter-spacing: 2px; font-family: poppins; text-transform: uppercase; margin-top: -5px;
+}
+
+.stinfo2 {
+width: auto; height: 60px; line-height: 10px; overflow:scroll; margin-top: 5px;font-size: 10px;
+}
+
+.sticon2 {
+width: 24px; height: 24px; border-radius: 50%; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 18px; color: #dca5b6;
+}
+
+.stlabel2 {
+width: 141px; height: 24px; display: flex; align-items: center; position: absolute; left: 30px;
+}
+.thing2 {
+    width: 30px; height: 30px; background: rgba(191, 144, 134, 0.48); border-radius: 15px; position: absolute; top: 113px; left: 0px; animation: pulse 2s infinite; 
+}
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+} 
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+		box-shadow: 0 0 0 0 #BE8F85;
+		opacity: 1;
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(1);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
